@@ -20,6 +20,10 @@ archives:
     amd64: x86_64
   files:
     - PlatformDiscovery.exe
+    - LICENCE*
+    - LICENSE*
+    - README*
+    - CHANGELOG*
 checksum:
   name_template: 'checksums.txt'
 snapshot:
