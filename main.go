@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
+	"github.com/sqweek/dialog"
 	"io"
 	"log"
 	"os/exec"
@@ -39,6 +40,7 @@ func main() {
 	solutions, err := ReadSolutions(platform)
 	for _,s :=range solutions {
 		if s.Name =="Intel(R) AMT" {
+			dialog.Message("Exist :%s \nState:%s", s.Exist, s.State).Title("Intel vPro Detector").Info()
 			fmt.Println(s.Exist)
 			fmt.Println(s.State)
 		}
