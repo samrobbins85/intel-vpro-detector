@@ -37,5 +37,10 @@ func main() {
 	}
 	platform := strings.NewReader(string(out))
 	solutions, err := ReadSolutions(platform)
-	fmt.Printf("Name %s, Exist %s, State %s", solutions[0].Name, solutions[0].Exist, solutions[0].State)
+	for _,s :=range solutions {
+		if s.Name =="Intel(R) AMT" {
+			fmt.Println(s.Exist)
+			fmt.Println(s.State)
+		}
+	}
 }
