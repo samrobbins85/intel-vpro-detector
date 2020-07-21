@@ -1,9 +1,14 @@
-# intel-vpro-detector
+# Intel vPro Detector
 A program to detect is intel vPro is available on a machine, and if so, if it is enabled
 
-Note that the initial state of this repo is none of my code, the executable is proprietary and the python script has been produced by someone else.
+## Usage
+**Note**: This program can only be used on Windows.
 
-The code I have written is in golang. First install go using your package manager.
+Download both executables from the releases section of this repository, and run the file `vPro Detector.exe` this will then give a dialog box with your vPro status
+
+## Development
+
+The code I have written is in golang. First install go using your package manager or from [here](https://golang.org/dl/). Then run the following commands to build it:
 
 ```shell
 go get github.com/akavel/rsrc
