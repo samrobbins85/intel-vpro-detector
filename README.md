@@ -1,3 +1,12 @@
+<p align="center">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/samrobbins85/intel-vpro-detector/goreleaser?style=for-the-badge">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge">
+  <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/samrobbins85/intel-vpro-detector?style=for-the-badge">
+  <a aria-label="License" href="https://github.com/samrobbins85/intel-vpro-detector/blob/master/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/samrobbins85/intel-vpro-detector?style=for-the-badge">
+  </a>  
+</p>
+
 # Intel vPro Detector
 A program to detect is intel vPro is available on a machine, and if so, if it is enabled
 
